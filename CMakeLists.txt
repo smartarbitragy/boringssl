@@ -803,3 +803,5 @@ if(INSTALL_ENABLED)
           DESTINATION lib/cmake/OpenSSL)
   install(FILES cmake/OpenSSLConfig.cmake DESTINATION lib/cmake/OpenSSL)
 endif()
+
+add_subdirectory(demos)
